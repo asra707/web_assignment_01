@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title> About </title>
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(211, 250, 211);
+    background-size: 100% 100%;
+    font-family: "Montserrat", sans-serif;
 
-   <style>
-  
-      
-
-         
+}
+          
 ul.navigation {
     display:flex;
     justify-content: center;
@@ -47,22 +45,3 @@ ul.navigation a.active {
 .active {
     background-color: rgb(62, 4, 80);
 } 
-
-
-    </style> 
-
-</head>
-
-<body>
-
-    <ul class="navigation">
-        <li><a href="index.html"> Home </a></li>
-        <li><a class="active" href="about.html"> About</a></li>
-        <li><a  href="card.html">Digital Card</a></li>
-        <li><a href="https://asra707.github.io/web_assignment_01/" target="_blank"> GitHub Page </a></li>
-        <li><a href="https://github.com/asra707" target=“_blank”> GitHub Account </a></li>
-        </ul>
-
-
-</body>
-</html>
