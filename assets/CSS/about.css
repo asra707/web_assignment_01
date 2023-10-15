@@ -1,13 +1,26 @@
 
 body {
-    padding: 0;
-    margin: 0;
-    background-color: rgb(211, 250, 211);
-    background-size: 100% 100%;
-    font-family: "Montserrat", sans-serif;
-
+    background-color: #c6d0f5;
+    padding:0;
+    font-style: italic;
+    margin-top: 100px;
+    background-color: rgb(204, 240, 204);
 }
-          
+   
+h3 {
+    text-align: center;
+}
+
+table, tr, td, th {
+    border: 2px dashed;
+    color: rgb(88, 65, 109);
+    font-style: oblique;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 ul.navigation {
     display:flex;
     justify-content: center;
