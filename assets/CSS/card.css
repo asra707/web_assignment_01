@@ -1,0 +1,155 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg1.jpg)
+    no-repeat center center fixed;
+    background-size: 100% 100%;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+  
+
+#card {
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png")
+      repeat-x right top #f4f4f4;
+    display: flex;
+    flex-direction: column; /* x axis */
+    align-items: center;  
+    padding: 2rem; 
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 6px solid #c7c7c7;
+    transition: transform .2s;
+  }
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.title h1 {
+    font-size: 36px !important;
+    margin: 10px 0;
+  }
+
+.title h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#name {
+    color: #407c7a;
+}
+ 
+#icons i {
+    color: white;
+    background-color: #333333;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#icons i:hover {
+    background-color: #407c7a;
+}
+
+.hr1 {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png)
+      no-repeat center center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-main {
+    padding: 0 2.3rem;
+}
+  
+.card-main p {
+    font-size: 15px;
+}
+
+#information-button {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png)
+      no-repeat center center rgb(87, 68, 156);
+    transition: 0.6s;
+} 
+
+#information-button:hover {
+    background-color: #407c7a;
+}
+  
+#information-button p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 15px;
+}
+  
+
+ul.navigation {
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw; 
+    margin: 0;
+    list-style-type: none;
+    background-color:rgb(224, 161, 236);
+    padding: 0;
+}
+
+ul.navigation li {
+    background-color: rgb(224, 161, 236);
+    float: left;
+}
+
+ul.navigation li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigation a:hover:not(.active) {
+    background-color: rgb(184, 106, 194);
+    color: rgb(144, 25, 168);
+}
+
+ul.navigation a.active {
+    color: white;
+}
+
+.active {
+    background-color: rgb(62, 4, 80);
+} 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Q&A </title>
+</head>
+
+<body>
+
+    <p> this data will not be used against you!</p>
+
+    <form action="mailto:amammadli15552@ada.edu.az" method="POST"> 
+
+    <!-- <form action="/" method="GET"> -->
+
+        <label for="fname">First Name:</label>        
+        <input type="text" id="fname" placeholder="Enter yout First Name" required/> <br />
+        
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Enter your Last Name" required/> <br />
+
+
+        <fieldset>
+            <legend>Choose your gender</legend>
+
+            <input type="radio" id="male" name="gender" value="MALE"/> 
+            <label for="male"> Male </label> <br/>
+
+            <input type="radio" id="female" name="gender" value="FEMALE"/> 
+            <label for="female"> Female </label><br/>
+
+            <input type="radio" id="other" name="gender" value="OTHER"/> 
+            <label for="other"> Other </label> <br/>
+        </fieldset>
+
+    <fieldset>
+        <legend>Select yout favourite field</legend>
+
+        <input type="checkbox" id="field_ai" name="field" value="AI"/>
+        <label for="field_ai">Artificial Intelligence </label> <br/>
+
+        <input type="checkbox" id="field_comp_graph" name="field" value="CompGraph"/>
+        <label for="field_comp_graph"> CompGraph </label> <br/>
+
+
+        <input type="checkbox" id="field_iot" name="field" value="IoT"/>
+        <label for="field_iot"> Iot </label> <br/>
+    </fieldset>
+
+
+    <input type="submit" value="SUBMIT"/>
+
+    </form>
+
+   
+</body>
+
+</html>

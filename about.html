@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> About </title>
+
+   <style>
+        body{
+            height: 1000px;
+            margin-top: 120px;
+        }
+       
+       span{
+            background-color: rgb(245, 213, 107);
+            
+        }
+
+        .movies{
+            background-color: rgb(136, 224, 224);
+            border: 1px dashed rgb(87, 57, 110);
+        }
+
+        .actors{
+            background-color: rgb(145, 224, 145);
+            border: 1px dotted rgb(228, 168, 57);
+            font-size: 1.2 em;
+        } 
+
+         p{
+            font-size: 20px;
+         }
+
+        .contain1{
+            position: relative;
+            background-color: aliceblue;
+        }
+
+         .block{
+            width: 300px;
+            background-color: antiquewhite;
+            display: inline-block;
+         }
+
+         .block-a{
+            color: rgb(230, 60, 60);
+            position: absolute;
+            left: 200px;
+            top: 30px;
+         }
+
+         .block-b{
+            color: rgb(70, 221, 70);
+            width: 400px;
+            
+         }
+
+         .block-c{
+            position:fixed;
+            right: 0;
+            bottom: 0;
+
+         }
+
+         /* li{
+            list-style-type: none;
+            display: inline-block;
+            font-size: 1.3rem;
+            width: 150px;
+            background-color: aquamarine;
+         }
+
+         li:hover{
+            background-color: black;
+            color: aquamarine;
+
+         } */
+
+         
+ul.navigation {
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw; 
+    margin: 0;
+    list-style-type: none;
+    background-color:rgb(224, 161, 236);
+    padding: 0;
+}
+
+ul.navigation li {
+    background-color: rgb(224, 161, 236);
+    float: left;
+}
+
+ul.navigation li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigation a:hover:not(.active) {
+    background-color: rgb(184, 106, 194);
+    color: rgb(144, 25, 168);
+}
+
+ul.navigation a.active {
+    color: white;
+}
+
+.active {
+    background-color: rgb(62, 4, 80);
+} 
+
+
+    </style> 
+
+</head>
+
+<body>
+
+    <ul class="navigation">
+        <li><a href="index.html"> Home </a></li>
+        <li><a class="active" href="about.html"> About</a></li>
+        <li><a  href="card.html">Digital Card</a></li>
+        <li><a href="https://asra707.github.io/Assignment01/" target="_blank"> GitHub Page </a></li>
+        <li><a href="https://github.com/asra707" target=“_blank”> GitHub Account </a></li>
+        </ul>
+
+    <h1> This is an about me page deadass. </h1>
+
+    <a href="index.html"> home page:P </a>
+
+    <!-- <iframe src="index.html" width="500" height="400" frameborder="10"> -->
+
+    <hr/>
+
+    <h2> My favorites in  the movie industry </h2>
+    
+    <p> I really like the movies <span class="movies">The Menu</span>, <span class="movies">Inception</span>, <span class="movies">Ironman</span>, <span class="movies">Spirited away</span>, <span class="movies">Ponyo</span>  
+        and I admire the actors <span class="actors">Inaki Godoy</span>, <span class="actors">Emma Watson</span>, <span class="actors">Tom Hanks</span>, <span class="actors">David Tennant</span>, <span class="actors">Peter Capaldi</span>.  </p>
+
+    <span> Dummy text</span>
+
+    <div class="contain1">
+        <div class="block block-a"> Block A: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio exercitationem itaque nam quia dolore voluptates laboriosam sit aliquam accusantium assumenda optio modi, maiores, ipsa quos repellat magnam quis error, libero illum? Saepe, maiores et officiis sequi illum temporibus fuga odit dolorum sed animi. Cupiditate vero nam dolorum, inventore ipsam eveniet. </div>
+        <div class="block block-b"> Block B: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio exercitationem itaque nam quia dolore voluptates laboriosam sit aliquam accusantium assumenda optio modi, maiores, ipsa quos repellat magnam quis error, libero illum? Saepe, maiores et officiis sequi illum temporibus fuga odit dolorum sed animi. Cupiditate vero nam dolorum, inventore ipsam eveniet. </div>
+        <div class="block block-c"> Block C:Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio exercitationem itaque nam quia dolore voluptates laboriosam sit aliquam accusantium assumenda optio modi, maiores, ipsa quos repellat magnam quis error, libero illum? Saepe, maiores et officiis sequi illum temporibus fuga odit dolorum sed animi. Cupiditate vero nam dolorum, inventore ipsam eveniet. </div>
+    </div>
+
+    <ul>
+        <li> Home </li>
+        <li> About </li>
+        <li> Contact </li>
+    </ul>
+
+</body>
+</html>

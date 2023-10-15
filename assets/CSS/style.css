@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(240, 231, 204);
+    background-image: url("assets/images/download.jpg");
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+
+
+.hrL {
+    border-top: 3px dotted #095484;
+    width: 60%;
+}
+
+.zoom {
+    border-radius: 40%;
+    width: 200px;
+    height: 200 px;
+    transition: all .2s ease-in-out; 
+}
+
+.zoom:hover {
+    transform: scale(7.07);
+}
+
+h4 {
+    color: rgb(196, 168, 172);
+}
+
+h1 {
+    color: rgb(100, 100, 148);
+    font-family: 'Pixelify Sans', cursive;
+
+}
+
+p {
+    color: #252d2e; 
+}
+
+#email, #phone, #adress {
+    color: red;
+}
+
+ul.language>li{
+    list-style-type: none;
+}
+
+/* a{
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color:black;
+} */
+
+
+ul.navigation {
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw; 
+    margin: 0;
+    list-style-type: none;
+    background-color:rgb(224, 161, 236);
+    padding: 0;
+}
+
+ul.navigation li {
+    background-color: rgb(224, 161, 236);
+    float: left;
+}
+
+ul.navigation li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigation a:hover:not(.active) {
+    background-color: rgb(184, 106, 194);
+    color: rgb(144, 25, 168);
+}
+
+ul.navigation a.active {
+    color: white;
+}
+
+.active {
+    background-color: rgb(62, 4, 80);
+} 
