@@ -22,7 +22,7 @@ body {
     transform: scale(7.07);
 } */
 
-img {
+.zoom {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -30,7 +30,7 @@ img {
     transition: transform .2s;
   }
 
-img:hover{
+.zoom:hover{
     transform: scale(1.1);
 }
 
